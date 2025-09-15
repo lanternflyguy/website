@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Lantern Fly Guys | #1 Spotted Lanternfly Removal Nassau & Suffolk County NY</title>
-    <meta name="description" content="New York's Premier #1 Spotted Lanternfly Removal Service. PPMP host solution based eradication management. Call (516) 870-8356 for Nassau & Suffolk County.">
-    <meta name="keywords" content="spotted lanternfly removal Nassau County, pest control Suffolk County, lanternfly exterminator Long Island, PPMP eradication management">
+    <meta name="description" content="New York's Premier #1 Spotted Lanternfly Removal Service. Patent-pending BT Gen 2 technology, OMRI organic certified. Call (516) 725-0672 for Nassau & Suffolk County.">
+    <meta name="keywords" content="spotted lanternfly removal Nassau County, pest control Suffolk County, lanternfly exterminator Long Island, organic pest control NY, BT Gen 2 sterilization">
     <link rel="canonical" href="https://www.thelanternflyguys.com/">
-    <link rel="stylesheet" href="styles.css">
     
     <!-- Local Business Schema -->
     <script type="application/ld+json">
@@ -16,7 +15,7 @@
         "@type": "LocalBusiness",
         "name": "The Lantern Fly Guys Inc",
         "description": "New York's Premier Spotted Lanternfly Removal Service",
-        "telephone": "+15168708356",
+        "telephone": "+15167250672",
         "email": "chris@lanternflyguy.com",
         "url": "https://www.thelanternflyguys.com",
         "address": {
@@ -24,26 +23,387 @@
             "addressRegion": "NY",
             "addressCountry": "US"
         },
+        "areaServed": [
+            {"@type": "City", "name": "Nassau County, NY"},
+            {"@type": "City", "name": "Suffolk County, NY"},
+            {"@type": "City", "name": "Plainview, NY"},
+            {"@type": "City", "name": "Dix Hills, NY"},
+            {"@type": "City", "name": "Huntington, NY"}
+        ],
         "serviceType": "Spotted Lanternfly Removal",
         "priceRange": "$275-$1850"
     }
     </script>
+    
+    <style>
+        /* Reset and Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #1e293b 100%);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header Styles */
+        .header {
+            background: rgba(30, 41, 59, 0.95);
+            backdrop-filter: blur(10px);
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            border-bottom: 3px solid #dc2626;
+        }
+        
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-menu a {
+            color: #ffffff;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+        
+        .nav-menu a:hover {
+            color: #fbbf24;
+        }
+        
+        .phone-btn {
+            background: #dc2626;
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        
+        .phone-btn:hover {
+            background: #b91c1c;
+        }
+        
+        /* Mobile Menu */
+        .mobile-menu {
+            display: none;
+            flex-direction: column;
+            background: #1e293b;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            padding: 1rem;
+        }
+        
+        .mobile-menu a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #374151;
+        }
+        
+        /* Hero Section */
+        .hero {
+            padding: 120px 0 80px;
+            text-align: center;
+            color: white;
+            background: linear-gradient(rgba(30, 41, 59, 0.8), rgba(51, 65, 85, 0.8));
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+        
+        .hero .highlight {
+            color: #fbbf24;
+        }
+        
+        .hero p {
+            font-size: 1.25rem;
+            margin-bottom: 2rem;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #e2e8f0;
+        }
+        
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 2rem;
+        }
+        
+        .btn-primary {
+            background: #dc2626;
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+        
+        .btn-primary:hover {
+            background: #b91c1c;
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            color: white;
+            padding: 1rem 2rem;
+            border: 2px solid white;
+            border-radius: 5px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            text-decoration: none;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+        
+        .btn-secondary:hover {
+            background: white;
+            color: #1e293b;
+        }
+        
+        /* Stats Section */
+        .stats {
+            padding: 60px 0;
+            background: rgba(51, 65, 85, 0.5);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+        
+        .stat-item {
+            color: white;
+        }
+        
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #fbbf24;
+            margin-bottom: 0.5rem;
+        }
+        
+        .stat-label {
+            font-size: 1rem;
+            color: #e2e8f0;
+        }
+        
+        /* Services Section */
+        .services {
+            padding: 80px 0;
+            background: white;
+        }
+        
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #1e293b;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .service-card {
+            background: #f8fafc;
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 4px solid #dc2626;
+            transition: transform 0.3s;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-card h3 {
+            color: #dc2626;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+        
+        .service-card p {
+            color: #64748b;
+            line-height: 1.6;
+        }
+        
+        /* Technology Section */
+        .technology {
+            padding: 80px 0;
+            background: #1e293b;
+            color: white;
+        }
+        
+        .tech-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+        
+        .tech-features {
+            list-style: none;
+        }
+        
+        .tech-features li {
+            padding: 0.5rem 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .tech-features li:before {
+            content: "✓";
+            color: #10b981;
+            font-weight: bold;
+            margin-right: 0.5rem;
+        }
+        
+        /* Contact Section */
+        .contact {
+            padding: 80px 0;
+            background: #dc2626;
+            color: white;
+            text-align: center;
+        }
+        
+        .contact h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .contact-info {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+        
+        .contact-item {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 10px;
+        }
+        
+        .contact-item h3 {
+            margin-bottom: 0.5rem;
+            color: #fbbf24;
+        }
+        
+        /* Footer */
+        .footer {
+            background: #0f172a;
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .nav-menu {
+                display: none;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .cta-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .tech-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .contact-info {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* SEO Optimization */
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
     <header class="header">
         <nav class="nav container">
-            <a href="/" class="logo">🦟 The Lantern Fly Guys</a>
-            <ul class="nav-menu" id="nav-menu">
+            <a href="/" class="logo">
+                🦟 The Lantern Fly Guys
+            </a>
+            <ul class="nav-menu">
                 <li><a href="/">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="pricing.html">Pricing</a></li>
-                <li><a href="about.html">Who We Are</a></li>
-                <li><a href="pest-identifier.html">AI Pest ID</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/pricing.html">Pricing</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="/towns.html">Service Areas</a></li>
             </ul>
-            <div class="mobile-menu-btn" onclick="toggleMobileMenu()">☰</div>
-            <a href="tel:5168708356" class="phone-btn">(516) 870-8356</a>
+            <a href="tel:5167250672" class="phone-btn">(516) 725-0672</a>
         </nav>
     </header>
 
@@ -51,10 +411,10 @@
     <section class="hero">
         <div class="container">
             <h1>New York's <span class="highlight">#1</span> Spotted Lanternfly Removal</h1>
-            <p>PPMP (Preventative Pest Management Procedure) host solution based eradication management. 85-90% elimination rate. OMRI organic certified, EPA registered, safe for families and pets.</p>
+            <p>Patent-pending BT Gen 2 sterilization technology with 85-90% elimination rate. OMRI organic certified, EPA registered, safe for families and pets. Serving Nassau & Suffolk County with professional expertise.</p>
             <div class="cta-buttons">
-                <a href="tel:5168708356" class="btn-primary">Call (516) 870-8356</a>
-                <a href="contact.html" class="btn-secondary">Free Assessment</a>
+                <a href="tel:5167250672" class="btn-primary">Call (516) 725-0672</a>
+                <a href="/contact.html" class="btn-secondary">Free Assessment</a>
             </div>
         </div>
     </section>
@@ -89,42 +449,28 @@
             <h2 class="section-title">Professional Spotted Lanternfly Services</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3>🏠 Residential Protection</h3>
-                    <p>Complete property protection using our PPMP host solution based eradication management. Tailored for high-end residential properties.</p>
-                    <ul class="service-features">
-                        <li>Property assessment and inspection</li>
-                        <li>Heritage tree protection</li>
-                        <li>85-90% elimination rate</li>
-                        <li>Long-term protection solution</li>
-                        <li>OMRI organic certified</li>
-                    </ul>
-                    <div class="pricing">$350 - $1,500</div>
+                    <h3>Residential Protection</h3>
+                    <p>Complete property protection for homes and estates. Our patent-pending BT Gen 2 technology provides 2-3 seasons of protection with 85-90% elimination rates.</p>
                 </div>
-                
                 <div class="service-card">
-                    <h3>🏢 Commercial Services</h3>
-                    <p>Business-friendly treatments for high-end commercial properties with minimal disruption to operations.</p>
-                    <ul class="service-features">
-                        <li>Flexible scheduling</li>
-                        <li>Professional documentation</li>
-                        <li>Staff education programs</li>
-                        <li>Ongoing monitoring</li>
-                        <li>Corporate compliance</li>
-                    </ul>
-                    <div class="pricing">$500 - $5,000+</div>
+                    <h3>Commercial Services</h3>
+                    <p>Business-friendly treatments with minimal disruption. Protect your commercial property, customers, and reputation with professional spotted lanternfly management.</p>
                 </div>
-                
                 <div class="service-card">
-                    <h3>🏘️ HOA Communities</h3>
-                    <p>Exclusive HOA services with bulk pricing for high-end community properties throughout Nassau and Suffolk County.</p>
-                    <ul class="service-features">
-                        <li>Community-wide treatments</li>
-                        <li>Bulk pricing discounts</li>
-                        <li>Resident education</li>
-                        <li>Board reporting</li>
-                        <li>Premium service standards</li>
-                    </ul>
-                    <div class="pricing">$2,500 - $15,000</div>
+                    <h3>HOA Communities</h3>
+                    <p>Bulk pricing and community-wide protection programs. Educational workshops and ongoing support for homeowner associations throughout Nassau and Suffolk County.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Winery & Vineyard Protection</h3>
+                    <p>Specialized OMRI organic treatments safe for grape production. Protect your vineyard and wine tourism with harvest-safe applications.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Municipal Services</h3>
+                    <p>Large-scale treatments for parks, recreation areas, and public spaces. Multi-county coordination and emergency response capabilities.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Emergency Response</h3>
+                    <p>24/7 emergency services for severe infestations. Rapid deployment teams available throughout Long Island for crisis situations.</p>
                 </div>
             </div>
         </div>
@@ -135,21 +481,21 @@
         <div class="container">
             <div class="tech-content">
                 <div>
-                    <h2>PPMP Host Solution Based Eradication Management</h2>
-                    <p>Revolutionary approach that focuses on host solutions rather than temporary remedies. Our procedure eliminates spotted lanternflies at the source.</p>
+                    <h2>Patent-Pending BT Gen 2 Technology</h2>
+                    <p>Revolutionary sterilization approach that transforms treated trees into BioCertified Living Sentinels, providing long-term protection against spotted lanternfly infestations.</p>
                     <ul class="tech-features">
                         <li>85-90% elimination rate (industry leading)</li>
-                        <li>Host solution based approach</li>
+                        <li>2-3 season protection duration</li>
                         <li>OMRI organic certified formulation</li>
                         <li>EPA registered for New York State</li>
                         <li>Safe for children, pets, and landscaping</li>
-                        <li>Long-term eradication management</li>
+                        <li>BioCertified Living Sentinels methodology</li>
                     </ul>
                 </div>
-                <div class="tech-highlight">
+                <div>
                     <h3>Why Choose The Lantern Fly Guys?</h3>
-                    <p>We're New York's premier spotted lanternfly specialists with PPMP technology that eliminates pests at the source. Our Long Island expertise and proven results make us the #1 choice for high-end properties.</p>
-                    <a href="contact.html" class="btn-primary">Get Started Today</a>
+                    <p>We're New York's premier spotted lanternfly specialists with patent-pending technology that no other company offers. Our local expertise, professional equipment, and proven results make us the #1 choice for Nassau and Suffolk County.</p>
+                    <a href="/contact.html" class="btn-primary">Get Started Today</a>
                 </div>
             </div>
         </div>
@@ -162,19 +508,19 @@
             <p>Ready to protect your property? Contact New York's #1 spotted lanternfly removal service today.</p>
             <div class="contact-info">
                 <div class="contact-item">
-                    <h3>📞 Primary Contact</h3>
-                    <p><strong>(516) 870-8356</strong></p>
-                    <p>All services, sales, emergencies, and business inquiries</p>
+                    <h3>Sales & Services</h3>
+                    <p><strong>(516) 725-0672</strong></p>
+                    <p>Service requests, sales inquiries, emergency response</p>
                 </div>
                 <div class="contact-item">
-                    <h3>📧 Email Contact</h3>
+                    <h3>Business Information</h3>
+                    <p><strong>(631) 930-2508</strong></p>
+                    <p>Technology questions, company information, business inquiries</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Email Contact</h3>
                     <p><strong>chris@lanternflyguy.com</strong></p>
                     <p>Appointments, bookings, and general inquiries</p>
-                </div>
-                <div class="contact-item">
-                    <h3>🏢 Service Base</h3>
-                    <p><strong>Melville, Long Island</strong></p>
-                    <p>Servicing Nassau, Suffolk & Five Boroughs</p>
                 </div>
             </div>
         </div>
@@ -184,11 +530,44 @@
     <footer class="footer">
         <div class="container">
             <p>&copy; 2024 The Lantern Fly Guys Inc. New York's Premier #1 Spotted Lanternfly Removal Service.</p>
-            <p>Licensed • Insured • EPA Registered • OMRI Certified • Based in Melville, Long Island</p>
-            <p>"Call the Best to Rid Your Pest!" - Serving Nassau & Suffolk County with Pride</p>
+            <p>Licensed • Insured • EPA Registered • OMRI Certified</p>
         </div>
     </footer>
 
-    <script src="scripts.js"></script>
+    <!-- SEO Enhancement Script -->
+    <script>
+        // Phone number click tracking for SEO
+        document.querySelectorAll('a[href^="tel:"]').forEach(function(link) {
+            link.addEventListener('click', function() {
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'phone_call', {
+                        'event_category': 'contact',
+                        'event_label': this.href
+                    });
+                }
+            });
+        });
+        
+        // Form submission tracking
+        document.querySelectorAll('form').forEach(function(form) {
+            form.addEventListener('submit', function() {
+                if (typeof gtag !== 'undefined') {
+                    gtag('event', 'form_submit', {
+                        'event_category': 'contact',
+                        'event_label': 'contact_form'
+                    });
+                }
+            });
+        });
+    </script>
+
+    <!-- Google Analytics (Replace GA_MEASUREMENT_ID with your actual ID) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'GA_MEASUREMENT_ID');
+    </script>
 </body>
 </html>
