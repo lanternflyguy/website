@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | The Lantern Fly Guys</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="../">Home</a></li>
+        <li><a href="../services/">Services</a></li>
+        <li><a href="../pricing/">Pricing</a></li>
+        <li><a href="../contact/">Contact</a></li>
+        <li><a href="../towns/">Service Areas</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h1>Contact Us</h1>
+    <p>Have questions or want to book a service? Reach out to us today!</p>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message"></textarea><br><br>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> The Lantern Fly Guys. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
